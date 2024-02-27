@@ -1,0 +1,63 @@
+body{
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.title-blue{
+    color: blue;
+    font-weight: normal;
+}
+
+h1:hover{
+    color: pink;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+.title-green{
+color: green;
+}
+
+.p-orange{
+color: orange;
+}
+
+.p-purple{
+color: purple;
+}
+
+.right{
+    text-align: right;
+}
+
+.title-grey{
+color: grey;
+}
+
+.pink{
+color: pink;
+}
+
+.sport-blue{
+color: blue;
+}
+
+.italic{
+font-style: italic;
+}
+
+.grand{
+    text-transform: uppercase;
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+.center{
+    display: flex ;
+    text-align: center;
+    justify-content: center;
+}

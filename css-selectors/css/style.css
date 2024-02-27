@@ -1,0 +1,21 @@
+/* Je suis un comment taire CSS */
+
+/* On peut sélectionner les noms des balises HTML */
+/* Consequences tous les elements de ce type seront modifiés */
+p{
+    color: red;
+}
+
+/* On peut selectionner des balises spécifiques grâce aux class seront modifiés */
+.txt-cl-orange{
+    color: orange;
+}
+
+/* On peut selectionner une balise spécifique grâce à son id en utilisant le # */
+/* Conséquences cet element sera modifiés */
+
+#title{
+    color: blue;
+}
+
+/*  */
