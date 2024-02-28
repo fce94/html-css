@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url(img/pexels-chris-schippers-421927.jpg);
+    background-size: cover;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    background-position: center center;
+    margin: auto;
+}
+.container-2{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
