@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: green;
+   
+    /* La propriete display:flex donne un pouvoir sur les element enfants direct */
+    display: flex;
+
+    /* La propriete flex-direction:  permet de choisir la direction de l'axe principale*/
+    flex-direction: row;
+    /* row | column */
+
+    /* La propriete justify-content: permet d'aligner dans le sens horizontal */
+    justify-content: center;
+    /* flex-start | flex-end | center | space-between | space-around */
+
+    /* La propriete justify-content: permet d'aligner dans l'axe secondaire */
+    align-items: flex-start;
+    /* flex-start | flex-end | center */
+
+    /* gap permet de mettre de l'espace entre les enfants direct */
+    gap: 10px;
+
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 110px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.nav{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.nav:hover{
+    padding-top: 5%;
+    color: rgb(128, 204, 128);
+}
