@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+header {
+  background-color: #007bff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 50px;
+  padding-inline: 60px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+header a {
+  color: whitesmoke;
+
+}
+
+header a:hover{
+    background-color: whitesmoke;
+    color: #007bff;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.logo-paris {
+  font-size: 30px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(14, 14, 14, 0.829), transparent),
+    url(../img/pexels-pixabay-532826.jpg);
+  height: 650px;
+  background-position: bottom center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  color: whitesmoke;
+}
+
+.title-hero {
+  margin: 20px;
+  text-transform: uppercase;
+}
+
+.p-hero {
+  margin-block-end: 5%;
+}
+
+.p-button {
+  background-color: #007bff;
+  width: 160px;
+  margin-inline: auto;
+  padding: 11px;
+  border-radius: 15px;
+}
+
+.p-button:hover{
+    background-color: whitesmoke;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.header-main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-block-start: 4%;
+    gap: 25px;
+}
+
+.img-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+    flex-wrap: wrap;
+    margin-block-start: 4%;
+}
+
+.img-main img{
+    border-radius: 15px;
+    display: block;
+   object-fit: cover;
+   object-position: center center;
+   width: 350px;
+   height: 350px;
+   box-shadow: rgba(128, 128, 128, 0.349) 5px 5px 5px 5px;
+}
+
+.button-main{
+    background-color: #007bff;
+    width: 280px;
+    display: block;
+    margin-inline: auto;
+    padding: 15px;
+    border-radius: 15px;
+    margin-block-start: 4%;
+}
+
+.button-main:hover{
+    background-color: whitesmoke;
+    color: #007bff;
+    border: 1px #007bff solid;
+    
+}
+
+.up-button{
+    background-color: #007bff;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    margin: 30px;
+    margin-inline-start: auto;
+
+
+}
+
+
+.up-button:hover{
+    color: #007bff;
+    border: 1px #007bff solid;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        background-color: #007bff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        min-height: 50px;
+        padding-inline: 60px;
+        gap: 15px;
+      }
+
+      .barre-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding-block-end: 10px;
+      }
+}
